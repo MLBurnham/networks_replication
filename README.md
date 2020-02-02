@@ -1,0 +1,3 @@
+Replication data for "Reconstruction of the socio-semantic dynamics of political activist Twitter networks -- method and application to the 2017 fRend presidential election
+
+Gaumont, Noe, Maziyar Panahi, and David Chavalarias. "Reconstruction of the socio-semantic dynamics of political activist Twitter networks—Method and application to the 2017 French presidential election." PloS one 13, no. 9 (2018).
