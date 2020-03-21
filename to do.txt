@@ -1,5 +1,0 @@
-1. git ignore for twitter keys
-2. save plots and create pdf for assignment 2
-3. try atlas force 2 algorithm for plotting
-4. html of notebooks
-5. push everything to git

@@ -1,0 +1,41 @@
+03-create-adjacency-matrix.R (text/plain; charset=US-ASCII) 1768 bytes.
+01-get-twitter-data.R (text/plain; charset=US-ASCII) 1987 bytes.
+00-install-packages.R (text/plain; charset=US-ASCII) 2418 bytes.
+state-data.rdata (application/x-rlang-transport) 2617 bytes.
+08-analysis-section-4-3.R (text/plain; charset=US-ASCII) 3644 bytes.
+07-analysis-section-4-2.R (text/plain; charset=US-ASCII) 3700 bytes.
+09-analysis-section-5.R (text/plain; charset=US-ASCII) 3933 bytes.
+results-elites-UK.rdata (application/x-rlang-transport) 4784 bytes.
+recover-tweets.R (text/plain; charset=US-ASCII) 4797 bytes.
+05-model-second-stage.R (text/plain; charset=US-ASCII) 5081 bytes.
+results-elites-NL.rdata (application/x-rlang-transport) 5180 bytes.
+04-model-first-stage.R (text/plain; charset=US-ASCII) 5459 bytes.
+02-get-users-data.R (text/plain; charset=US-ASCII) 5639 bytes.
+results-elites-spain.rdata (application/x-rlang-transport) 6948 bytes.
+results-elites-italy.rdata (application/x-rlang-transport) 9103 bytes.
+05b-model-second-stage-complete.R (text/plain; charset=US-ASCII) 10654 bytes.
+06-analysis-section-4-1.R (text/plain; charset=US-ASCII) 11577 bytes.
+results-elites-US.rdata (application/x-rlang-transport) 11838 bytes.
+results-elites-germany.rdata (application/x-rlang-transport) 13399 bytes.
+functions.R (text/plain; charset=US-ASCII) 13679 bytes.
+README-replications-instructions.pdf (application/pdf) 30270 bytes.
+ohio-data.rdata (application/x-rlang-transport) 35582 bytes.
+contributor-data.rdata (application/x-rlang-transport) 42232 bytes.
+elites-data.Rdata (application/x-rlang-transport) 107112 bytes.
+samples-NL.Rdata (application/x-rlang-transport) 303242 bytes.
+samples-germany.Rdata (application/x-rlang-transport) 500506 bytes.
+samples-spain.Rdata (application/x-rlang-transport) 504242 bytes.
+samples-italy.Rdata (application/x-rlang-transport) 662687 bytes.
+samples-UK.Rdata (application/x-rlang-transport) 666309 bytes.
+tweet-counts.rdata (application/x-rlang-transport) 1851352 bytes.
+samples-US.rdata (application/x-rlang-transport) 1960698 bytes.
+adj-matrix-germany.rdata (application/x-rlang-transport) 2134117 bytes.
+adj-matrix-UK.rdata (application/x-rlang-transport) 2545973 bytes.
+adj-matrix-nl.rdata (application/x-rlang-transport) 3088775 bytes.
+adj-matrix-spain.rdata (application/x-rlang-transport) 4742553 bytes.
+adj-matrix-italy.rdata (application/x-rlang-transport) 7445073 bytes.
+adj-matrix-US.rdata (application/x-rlang-transport) 8185124 bytes.
+users-data-US.rdata (application/x-rlang-transport) 9113241 bytes.
+retweets-data.rdata (application/x-rlang-transport) 22419281 bytes.
+romney-tweets.txt (text/plain; charset=US-ASCII) 495904380 bytes.
+obama-tweets.txt (text/plain; charset=US-ASCII) 652706585 bytes.
