@@ -4,7 +4,8 @@
 # points) with a parallelized metropolis algorithm
 # Author: Pablo Barbera
 #==============================================================================
-setwd("C:\\Users\\Mike\\Desktop\\School\\networks_replication\\Barbera")
+#setwd("C:\\Users\\Mike\\Desktop\\School\\networks_replication\\Barbera")
+setwd('/home/mike/Insync/OneDrive/Networks/Replication/Barbera')
 source('functions.R')
 
 samplesfile <- 'bilinsamples-US.rdata'
@@ -82,7 +83,7 @@ metropolis.logit <- function(y, alpha.i, phi.i, mu_beta.i, sigma_beta.i, beta.in
 }
 
 ## parallelized version of metropolis algorithm
-estimation <- function(first, last=first+4999){
+estimation <- function(first, last=first+19){
     pars <- first:last
     beta.samples <- array(NA, dim=c(length(pars), 200), 
         dimnames=list(paste("beta[", first:last, "]", sep=""), 
@@ -122,7 +123,10 @@ n1 <- 1
 n2 <- 100
 y <- y[n1:n2,]
 
-results <- mclapply(seq(n1, n2, 20), estimation, mc.cores=8)
+      start <- Sys.time()
+      results <- mclapply(seq(n1, n2, 20), estimation, mc.cores=4)
+      stop <- Sys.time()
+      stop-start
 
 
 

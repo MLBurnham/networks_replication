@@ -4,7 +4,7 @@
 # points) with a parallelized metropolis algorithm
 # Author: Pablo Barbera
 #==============================================================================
-
+setwd("/home/mike/Insync/Networks/Replication/Barbera")
 # NOTE: this is the full script used to get the estimates for the 300K 
 # users in the US. It can take a very long time to run, depending on how
 # many cores you're using. If standard errors are not interesting, maximum
@@ -12,12 +12,12 @@
 
 
 source('functions.R')
-library(rstan)
+#library(rstan)
 library(parallel)
 
-matrixfile <- 'output/adj-matrix-US.rdata'
-samplesfile <- 'output/samples-US.rdata'
-resultsfile <- 'output/estimates-US.rdata'
+matrixfile <- 'adj-matrix-US.rdata'
+samplesfile <- 'bilinsamples-US.rdata'
+resultsfile <- 'bilinestimates-US.rdata'
 
 # loading results of first stage
 load(samplesfile)
