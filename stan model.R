@@ -40,7 +40,6 @@ J <- dim(y)[1]
 
 # choosing a sample of 10,000 "informative" users who follow 10 or more
 # politicians, and then subsetting politicians followed by >200 of these
-
 if (J>10000){
   J <- 10000
   inform <- which(rowSums(y)>10)
